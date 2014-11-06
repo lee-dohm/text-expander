@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+atom_version = `/usr/local/bin/atom --version`
+
+print "Atom v#{atom_version}"
